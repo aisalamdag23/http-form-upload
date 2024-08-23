@@ -20,7 +20,7 @@
 - Make
 - Goose
 
-## Running the application:
+## Running the application
 1. Run the setup command.
 ```
 make setup
