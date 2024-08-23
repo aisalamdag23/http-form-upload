@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>File Upload</title>
+    </head>
+    <body>
+        <form method="POST" enctype="multipart/form-data" action="/upload">
+            <input type="hidden" name="auth" value="{{.AuthToken}}"/>
+            <label for="data">Select file</label>
+            <input type="file" name="data" required/>
+            <input type="submit" value="Upload"/>
+        </form>
+    </body>
+</html>
